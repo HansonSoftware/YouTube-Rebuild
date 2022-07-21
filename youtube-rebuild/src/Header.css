@@ -1,0 +1,61 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.Header-Logo {
+    height: 30px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.Header-Logo:hover {
+    cursor: pointer;
+}
+
+.Header-Right {
+    display: flex;
+    align-items: center;
+}
+
+.Header-Search {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgrey;
+}
+
+.Header-Search > input {
+    flex: 1;
+    border: none;
+}
+
+.Header-Search-Button {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: gray;
+}
+
+.Header-Seach-Button:hover {
+    cursor: pointer;
+}
+
+.Header-Icons {
+    display: flex;
+    align-items: center;
+}
+
+.Header-Icon {
+    margin-right: 8px;
+}
+
+.Header-Icon:hover {
+    cursor: pointer;
+}
